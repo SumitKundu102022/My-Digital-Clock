@@ -1,0 +1,48 @@
+/* @import url('/src/assets/Clock.jpg'); */
+
+
+.clockContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    background: url('/src/assets/Clock.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation: cbg 15s infinite;
+    transition: all 0.5s ease;
+}
+
+@keyframes cbg{
+    0%{
+        background: url('/src/assets/Clock.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background: url('/src/assets/Clock1.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background: url('/src/assets/Clock2.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background: url('/src/assets/Clock3.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background: url('/src/assets/Clock.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}

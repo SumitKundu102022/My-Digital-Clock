@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15+Charted&display=swap');
+/* @import url('./assets/Clock.jpg'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+   
+}
+
+body{
+
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+   
+}
+
+/* .clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+   
+
+} */
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.clock span{
+    font-size: 3rem;
+    font-family: "Jersey 15 Charted", sans-serif;
+    color: #333;
+}
